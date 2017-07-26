@@ -14,7 +14,7 @@
     <platform>all</platform>
   </extension>
   </addon>
-<addon id="plugin.close.kodi" name="[COLOR red] Force Close Kodi[/COLOR] " version="3.1.1" provider-name="Based_Skid">
+<addon id="plugin.close.kodi" name="[COLOR red] Force Close Kodi[/COLOR] " version="3.1.2" provider-name="Based_Skid">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
