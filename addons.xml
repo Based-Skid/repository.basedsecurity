@@ -70,4 +70,22 @@
     <platform>all</platform>
   </extension>
 </addon>
+<addon id="script.program.updategmscore"
+  name="UpdateGMSCore"
+  version="1.0.2" 
+  provider-name="Based_Skid">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.simple.downloader" version="1.9.5"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>android</platform>
+    <summary lang="en">Update Google Play Services</summary>
+    <description lang="en">Update Your PrebuiltGMS Core on Android (GooglePlay Services)</description>
+	<disclaimer>Your device must already be rooted, and you will need to grant SU permissions to the script when prompted.</disclaimer>
+  </extension>
+</addon>
 </addons>
